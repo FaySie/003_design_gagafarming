@@ -22,6 +22,8 @@ body {
 	background: url(../img/bg1.jpg) center center no-repeat;
 	background-size: cover;
     background-attachment: fixed;
+    overflow: visible;
+    height: initial;
 }
 
 span {
@@ -91,9 +93,16 @@ span {
 	padding-left: 5px;
 }
 
-.content span {
+.content a {
+	color: #fff;
 	border: 1px solid #fff;
 	padding: 15px 70px;
+	transition: 0.3s;
+}
+
+.content a:hover {
+	opacity: 0.5;
+	text-decoration: none;
 }
 
 /*-----------------------------------------------
@@ -163,4 +172,14 @@ span {
 .nav .focus:hover {
 	color: #b1d1f6;
 }
+
+
+/*@media (max-width: 1023px) {
+	* {
+		display: none;
+	}
+	.warning {
+		display: block;
+	}
+}*/
 
