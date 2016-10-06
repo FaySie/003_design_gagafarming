@@ -69,146 +69,146 @@ $(function() {
 
 	});
 	
-	/* sidebar page-1 */
-	$('#section1').click(function() {
-		if (moving)
-			return;
-		//移動中，回去
+	// /* sidebar page-1 */
+	// $('#section1').click(function() {
+	// 	if (moving)
+	// 		return;
+	// 	//移動中，回去
 
-		// current 該頁數是否為 page-1
-		if (current == 1) {
-			return;
-		}
+	// 	// current 該頁數是否為 page-1
+	// 	if (current == 1) {
+	// 		return;
+	// 	}
 
-		current = 1;
+	// 	current = 1;
 		
 
-		var page1 = pages[current];
+	// 	var page1 = pages[current];
 
-		moving = true;
+	// 	moving = true;
 
-		$('html, body').animate({
-			scrollTop : $(page1).first().offset().top
-		}, duration);
+	// 	$('html, body').animate({
+	// 		scrollTop : $(page1).first().offset().top
+	// 	}, duration);
 
-		// 設定移動完成後，才解除所鎖定
-		setTimeout(function() {
-			moving = false;
-		}, duration);
+	// 	// 設定移動完成後，才解除所鎖定
+	// 	setTimeout(function() {
+	// 		moving = false;
+	// 	}, duration);
 
-	});
+	// });
 	
-	/* sidebar page-2 */
-	$('#section2').click(function() {
-		if (moving)
-			return;
-		//移動中，回去
+	// /* sidebar page-2 */
+	// $('#section2').click(function() {
+	// 	if (moving)
+	// 		return;
+	// 	//移動中，回去
 
-		// current 該頁數是否為 page-2
-		if (current == 2) {
-			return;
-		}
+	// 	// current 該頁數是否為 page-2
+	// 	if (current == 2) {
+	// 		return;
+	// 	}
 
-		current = 2;
+	// 	current = 2;
 
-		var page2 = pages[current];
+	// 	var page2 = pages[current];
 
-		moving = true;
+	// 	moving = true;
 
-		$('html, body').animate({
-			scrollTop : $(page2).first().offset().top
-		}, duration);
+	// 	$('html, body').animate({
+	// 		scrollTop : $(page2).first().offset().top
+	// 	}, duration);
 
-		// 設定移動完成後，才解除所鎖定
-		setTimeout(function() {
-			moving = false;
-		}, duration);
+	// 	// 設定移動完成後，才解除所鎖定
+	// 	setTimeout(function() {
+	// 		moving = false;
+	// 	}, duration);
 
-	});
+	// });
 	
-	/* sidebar page-3 */
-	$('#section3').click(function() {
-		if (moving)
-			return;
-		//移動中，回去
+	// /* sidebar page-3 */
+	// $('#section3').click(function() {
+	// 	if (moving)
+	// 		return;
+	// 	//移動中，回去
 
-		// current 該頁數是否為 page-3
-		if (current == 3) {
-			return;
-		}
+	// 	// current 該頁數是否為 page-3
+	// 	if (current == 3) {
+	// 		return;
+	// 	}
 
-		current = 3;
+	// 	current = 3;
 
-		var page3 = pages[current];
+	// 	var page3 = pages[current];
 
-		moving = true;
+	// 	moving = true;
 
-		$('html, body').animate({
-			scrollTop : $(page3).first().offset().top
-		}, duration);
+	// 	$('html, body').animate({
+	// 		scrollTop : $(page3).first().offset().top
+	// 	}, duration);
 
-		// 設定移動完成後，才解除所鎖定
-		setTimeout(function() {
-			moving = false;
-		}, duration);
+	// 	// 設定移動完成後，才解除所鎖定
+	// 	setTimeout(function() {
+	// 		moving = false;
+	// 	}, duration);
 
-	});
+	// });
 	
-	/* sidebar page-4 */
-	$('#section4').click(function() {
-		if (moving)
-			return;
-		//移動中，回去
+	// /* sidebar page-4 */
+	// $('#section4').click(function() {
+	// 	if (moving)
+	// 		return;
+	// 	//移動中，回去
 
-		// current 該頁數是否為 page-4
-		if (current == 4) {
-			return;
-		}
+	// 	// current 該頁數是否為 page-4
+	// 	if (current == 4) {
+	// 		return;
+	// 	}
 
-		current = 4;
+	// 	current = 4;
 
-		var page4 = pages[current];
+	// 	var page4 = pages[current];
 
-		moving = true;
+	// 	moving = true;
 
-		$('html, body').animate({
-			scrollTop : $(page4).first().offset().top
-		}, duration);
+	// 	$('html, body').animate({
+	// 		scrollTop : $(page4).first().offset().top
+	// 	}, duration);
 
-		// 設定移動完成後，才解除所鎖定
-		setTimeout(function() {
-			moving = false;
-		}, duration);
+	// 	// 設定移動完成後，才解除所鎖定
+	// 	setTimeout(function() {
+	// 		moving = false;
+	// 	}, duration);
 
-	});
+	// });
 	
-	/* sidebar page-5 */
-	$('#section5').click(function() {
-		if (moving)
-			return;
-		//移動中，回去
+	// /* sidebar page-5 */
+	// $('#section5').click(function() {
+	// 	if (moving)
+	// 		return;
+	// 	//移動中，回去
 
-		// current 該頁數是否為 page-5
-		if (current == 5) {
-			return;
-		}
+	// 	// current 該頁數是否為 page-5
+	// 	if (current == 5) {
+	// 		return;
+	// 	}
 
-		current = 5;
+	// 	current = 5;
 
-		var page5 = pages[current];
+	// 	var page5 = pages[current];
 
-		moving = true;
+	// 	moving = true;
 
-		$('html, body').animate({
-			scrollTop : $(page5).first().offset().top
-		}, duration);
+	// 	$('html, body').animate({
+	// 		scrollTop : $(page5).first().offset().top
+	// 	}, duration);
 
-		// 設定移動完成後，才解除所鎖定
-		setTimeout(function() {
-			moving = false;
-		}, duration);
+	// 	// 設定移動完成後，才解除所鎖定
+	// 	setTimeout(function() {
+	// 		moving = false;
+	// 	}, duration);
 
-	});
+	// });
 
 });
 
