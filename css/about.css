@@ -1,0 +1,142 @@
+/**************************************************
+*
+*    web color
+*
+*    white        : #fff
+*    gray(light)  : #8b8b8b
+*    blue(light)  : #b1d1f6
+*	 blue(dark)	  : #0a0e22
+*    black        : #000
+*
+**************************************************/
+
+/*
+GENERAL
+*/
+
+body {
+    background: url(../img/bg_about.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #000;
+    overflow: visible;
+    height: initial;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+a,
+span {
+	font-size: 16px;
+}
+
+h1,
+h4,
+h5,
+p,
+span {
+    color: #fff;
+}
+
+/*-----------------------------------------------
+*    content
+-----------------------------------------------*/
+
+#main {
+    height: 100%;
+    padding: 0;
+}
+
+.row {
+    margin-top: 7vh;
+}
+
+.title {
+    margin-top: 15vh;
+    margin-bottom: 23vh;
+}
+
+.title h5 {
+    color: #8b8b8b;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+figure {
+    width: 550px;
+    height: 320px;
+}
+
+article {
+    margin-top: -11px;
+}
+
+.info {
+    margin-top: 50px;
+}
+
+.info h5 {
+    line-height: 1.8;
+}
+
+.more {
+    width: 180px;
+    border: solid #fff 1px;
+    padding: 20px 30px;
+    text-align: right;
+    margin-top: 61px;
+}
+
+.daguan {
+    margin-top: 37px;
+}
+
+.more::after {
+    content: '\2192';
+    padding-left: 5px;
+}
+
+.more:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+/*-----------------------------------------------
+*    footer
+-----------------------------------------------*/
+#footer {
+    height: 20vh;
+    background-color: #0a0e22;
+    margin-top: 58vh;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-top: 5vh;
+}
+
+.contact img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.contact h6 {
+    color: #8b8b8b;
+}
+
+
+/*@media (max-width: 1023px) {
+	* {
+		display: none;
+	}
+	.warning {
+		display: block;
+	}
+}*/
+
