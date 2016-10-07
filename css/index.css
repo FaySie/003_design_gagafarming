@@ -91,7 +91,8 @@ span {
 	color: #fff;
 }
 
-.content h1 {
+.content h1,
+.content h4{
 	line-height: 1.5;
 }
 
@@ -187,7 +188,6 @@ span {
 .nav .focus:hover {
 	color: #b1d1f6;
 }
-
 
 /*@media (max-width: 1023px) {
 	* {
