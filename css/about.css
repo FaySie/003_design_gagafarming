@@ -103,10 +103,16 @@ article {
 /*-----------------------------------------------
 *    footer
 -----------------------------------------------*/
+footer {
+    background-color: #0a0e22;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 8vh;
+}
+
 #footer {
     height: 20vh;
-    background-color: #0a0e22;
-    margin-top: 58vh;
 }
 
 .contact {
