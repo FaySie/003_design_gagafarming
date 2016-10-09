@@ -15,7 +15,7 @@ GENERAL
 */
 
 body {
-    background: url(../img/bg_about2.jpg) center center no-repeat;
+    background: url(../img/bg_gaga2.jpg) center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-color: #000;
@@ -63,7 +63,8 @@ span {
 
 figure {
     width: 550px;
-    height: 320px;
+    height: 310px;
+    margin-top: 26px;
 }
 
 article {
@@ -76,28 +77,24 @@ article {
 
 .info h5 {
     line-height: 1.8;
+    margin-top: 26px;
+    color: #8b8b8b;
 }
 
-.more {
-    width: 180px;
-    border: solid #fff 1px;
-    padding: 20px 30px;
-    text-align: right;
-    margin-top: 61px;
+.desc {
+    margin-top: 28px;
 }
 
-.daguan {
-    margin-top: 37px;
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
 }
 
-.more::after {
-    content: '\2192';
-    padding-left: 5px;
-}
-
-.more:hover {
-    opacity: 0.5;
-    text-decoration: none;
+.link img {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
 }
 
 /*-----------------------------------------------
