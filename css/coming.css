@@ -69,6 +69,13 @@ span {
     width: 200px;
     height: 200px;
     margin: 0 auto;
+    background: url("../img/soon.svg") center center no-repeat;
+    background-size: cover;
+}
+
+.square:active {
+    background: url("../img/hallo4.svg") center center no-repeat;
+    background-size: cover;
 }
 
 /*-----------------------------------------------
