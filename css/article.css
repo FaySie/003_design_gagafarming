@@ -87,7 +87,7 @@ article {
 }
 
 .desc {
-    margin-top: 28px;
+    margin-top: 28px !important;
 }
 
 .square {
